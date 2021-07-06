@@ -11,10 +11,14 @@ body{
 }
 .top-area-pic img{
     width: 100%;
+    padding-top: 25px;
 }
 h1{
     font-size: 50px;
-    line-height: 35px;
+    line-height: 25px;
+    color: #575757;
+}
+h2{
     color: #575757;
 }
 .orange-color{
@@ -31,7 +35,7 @@ h1{
     border-radius: 25px;
 }
 .top-area{
-    padding-top: 90px;
+    padding-top: 115px;
 }
 .about-me-background{
     background: url(images/about-me-background.png);
@@ -42,9 +46,25 @@ h1{
     width: 60%;
     padding: 50px 0px 0px 90px;
 }
-.about-me h2{
-    color: #575757;
-}
-.about-me{
+.about-me-area{
     padding-top: 80px;
+}
+.full-recipies-area{
+    margin: 0% 5% 5% 5%;
+}
+.my-recipies-area{
+    text-align: center;
+    margin: 0% 20%;
+}
+.post-width{
+    width: 27%;
+}
+.post-width img{
+    width: 100%;
+}
+.post-box{
+    box-shadow: 5px 7px 30px gray;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 25px;
 }
