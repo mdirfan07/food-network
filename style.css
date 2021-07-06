@@ -7,12 +7,12 @@ body{
 }
 .half-width{
     width: 40%;
-    margin: 0% 5% 0% 5%;
+    margin: 0% 5% 5% 5%;
 }
-.half-width img{
+.top-area-pic img{
     width: 100%;
 }
-.half-width h1{
+h1{
     font-size: 50px;
     line-height: 35px;
     color: #575757;
@@ -20,7 +20,7 @@ body{
 .orange-color{
     color: #fb9048;
 }
-.half-width p{
+.top-area p{
     color: #575757;
 }
 .button{
@@ -32,4 +32,19 @@ body{
 }
 .top-area{
     padding-top: 90px;
+}
+.about-me-background{
+    background: url(images/about-me-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-me-pic img{
+    width: 60%;
+    padding: 50px 0px 0px 90px;
+}
+.about-me h2{
+    color: #575757;
+}
+.about-me{
+    padding-top: 80px;
 }
